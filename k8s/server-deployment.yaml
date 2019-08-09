@@ -35,4 +35,3 @@ spec:
                 secretKeyRef:
                   name: pgpassword
                   key: PGPASSWORD
-

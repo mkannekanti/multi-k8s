@@ -16,4 +16,4 @@ spec:
         - name: client
           image: mkannekanti/multi-client
           ports:
-            - containerPort: 300
+            - containerPort: 3000
