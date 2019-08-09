@@ -13,7 +13,7 @@ spec:
         component: worker
     spec:
       containers:
-        - name: work
+        - name: worker
           image: mkannekanti/multi-worker
           env:
             - name: REDIS_HOST
