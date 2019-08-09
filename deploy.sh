@@ -1,6 +1,6 @@
 docker build -t mkannekanti/multi-client:latest -t mkannekanti/multi-client:$SHA -f ./client/Dockerfile ./client
 docker build -t mkannekanti/multi-server:latest -t mkannekanti/multi-server:$SHA -f ./server/Dockerfile ./server
-docker built -t mkannekanti/multi-worker:latest -t mkannekanti/multi-worker:$SHA -f ./worker/Dockerfile ./worker
+docker build -t mkannekanti/multi-worker:latest -t mkannekanti/multi-worker:$SHA -f ./worker/Dockerfile ./worker
 
 docker push mkannekanti/multi-client:latest
 docker push mkannekanti/multi-server:latest
